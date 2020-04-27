@@ -1,0 +1,30 @@
+.footer {
+    width: 1000px;
+    background-color: #c8ad57;
+    margin: 0 auto;
+}
+
+.footer .container {
+    width: 800px;
+
+    /*border: 1px solid green;*/
+    background-color: #c8553a;
+}
+
+.footer__top{
+    position: relative;
+}
+
+.footer__autor {
+    position: absolute;
+    font-size: 14px;
+    /*border: 1px solid red;*/
+    left: 20px;
+    font-style:oblique;
+    bottom: 30px;
+    color: #ffe035;
+    /*width:120px;*/
+}
+/*.albom{*/
+/*    background-color: #292929;*/
+/*}*/

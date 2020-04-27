@@ -1,0 +1,46 @@
+.member {
+    width: 1000px;
+    background-color: #c8ad57;
+    margin: 0 auto;
+}
+
+.member .container {
+    width: 800px;
+    margin-top: 0;
+    /*position: relative;*/
+    background-color: #c3972a;
+    height: 70px;
+    /*border: 1px solid red;*/
+}
+
+.member table {
+    padding: 0;
+    border: 0px solid #e5e5e5;
+    text-transform: uppercase;
+    color: #000000;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-spacing: 0 50px;
+}
+
+.member td {
+    width: 190px;
+    border: 0px solid #e5e5e5;
+    border-collapse: collapse;
+    padding: 10px 0 5px 10px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.member .section-title {
+    padding-left: 80px;
+}
+
+.member td {
+    border-spacing: 50px;
+}
+
+.albom table {
+    background-color: #2b2b2b;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pentagon/page-4</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="menu.css" rel="stylesheet">
+    <link href="content.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="member.css" rel="stylesheet">
+    <link href="feedback.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <img src="img/pentagon-group.jpg" alt="Pentagon-group" width="1000">
+        <div class="top">
+            <p>Pentagon</p>
+            <p class="little">Фанатам</p>
+        </div>
+    </div>
+</div>
+<div class="main-nav">
+    <div class="container">
+        <ul class="header__main-nav">
+            <li><a href="index.html" target="new">Главная</a></li>
+            <li><a href="page_2.html" target="new">Участники</a></li>
+            <li><a href="page_3.html" target="new">Дискография</a></li>
+            <li><a href="page_4.html" target="new">Обратная связь</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="feedback">
+    <div class="container">
+        <h2 class="section-title">Ваши пожелания</h2>
+        <form class="feedback__form" action="" method="post">
+            <div class="feedback__form-group">
+                <label for="feedback__fullname">Представьтесь:</label>
+                <input type="text" name="fullname" id="feedback__fullname">
+            </div>
+            <div class="feedback__form-phones clear-fix">
+                <div class="feedback__form-left">
+                    <label for="feedback__phone">Номер телефона:</label>
+                    <input type="text" name="phone" id="feedback__phone">
+                </div>
+                <div class="feedback__form-right">
+                    <label for="feedback__phonedop">Доп. номер:</label>
+                    <input type="text" name="phonedop" id="feedback__phonedop">
+                </div>
+            </div>
+            <div class="feedback__form-group">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="feedback__form-group">
+                <label for="feedback__volume">Тип проблемы:</label>
+                <div>
+                    <select name="volume" id="feedback__volume">
+                        <option value="1">Недостоверная информация</option>
+                        <option value="1">Оскорбление</option>
+                        <option value="1">Пожелание</option>
+                        <option value="1">Ошибка в работе сайта</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feedback__form-group">
+                <label for="feedback__message">Опишите вашу проблему:</label>
+                <textarea name="message" id="feedback__message"></textarea>
+            </div>
+            <div class="feedback__checkbox-area">
+                <label>
+                    <input type="checkbox" name="subscription" checked>
+                    Я согласен получать рассылку
+                </label>
+            </div>
+            <input class="btn _btn_color_brown" type="submit" value="Отправить заказ">
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <!--    <div class="container">-->
+    <!--        <img src="img/pentagon-group.jpg" alt="Pentagon-group" width="1000" height="150">-->
+    <div class="footer__top">
+        <p>Pentagon</p>
+        <p class="little">Фанатам</p>
+        <div class="footer__autor">
+            <p>Автор: Кузнецова Анастасия</p>
+            <p>e-mail</p>
+            <p>8-905-34567</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
